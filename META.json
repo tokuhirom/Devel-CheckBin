@@ -1,10 +1,10 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "check that a command is available",
    "author" : [
       "tokuhirom <tokuhirom@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.0.50, CPAN::Meta::Converter version 2.130870",
+   "generated_by" : "Minilla/v0.0.53, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -20,7 +20,8 @@
          "inc",
          "share",
          "eg",
-         "examples"
+         "examples",
+         "author"
       ]
    },
    "prereqs" : {
@@ -42,7 +43,9 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "Exporter" : "0",
+            "parent" : "0",
+            "perl" : "5.008001"
          }
       },
       "test" : {
@@ -52,5 +55,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/Devel-CheckBin/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/Devel-CheckBin",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tokuhirom/Devel-CheckBin.git",
+         "web" : "https://github.com/tokuhirom/Devel-CheckBin"
+      }
+   },
    "version" : "0.01"
 }

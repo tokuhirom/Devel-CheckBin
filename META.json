@@ -44,12 +44,14 @@
       "runtime" : {
          "requires" : {
             "Exporter" : "0",
+            "ExtUtils::MakeMker" : "6.52",
             "parent" : "0",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
+            "File::Temp" : "0",
             "Test::More" : "0.98"
          }
       }

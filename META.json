@@ -44,7 +44,7 @@
       "runtime" : {
          "requires" : {
             "Exporter" : "0",
-            "ExtUtils::MakeMker" : "6.52",
+            "ExtUtils::MakeMaker" : "6.52",
             "parent" : "0",
             "perl" : "5.008001"
          }

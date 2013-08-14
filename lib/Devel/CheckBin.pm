@@ -2,7 +2,7 @@ package Devel::CheckBin;
 use strict;
 use warnings;
 use 5.008001;
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 use parent qw(Exporter);
 
 our @EXPORT = qw(can_run check_bin);
@@ -50,6 +50,8 @@ sub check_bin {
 
 1;
 __END__
+
+=for stopwords distro
 
 =head1 NAME
 

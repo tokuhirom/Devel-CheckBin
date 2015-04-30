@@ -13,3 +13,5 @@
 !Build/
 !META.json
 !LICENSE
+/Build.bat
+/Makefile

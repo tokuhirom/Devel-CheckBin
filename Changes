@@ -2,6 +2,10 @@ Revision history for Perl extension Devel-CheckBin
 
 {{$NEXT}}
 
+0.03 2015-04-30T00:47:41Z
+
+    - re-packaging with EU::MM
+
 0.02 2013-08-14T03:17:03Z
 
     - re-packaging

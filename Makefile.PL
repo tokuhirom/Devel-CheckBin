@@ -12,7 +12,7 @@ use ExtUtils::MakeMaker;
 my %WriteMakefileArgs = (
     NAME     => 'Devel::CheckBin',
     DISTNAME => 'Devel-CheckBin',
-    VERSION  => '0.02',
+    VERSION  => '0.03',
     CONFIGURE_REQUIRES => {
   "ExtUtils::MakeMaker" => 0
 }

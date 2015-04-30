@@ -14,8 +14,6 @@ Devel::CheckBin is a perl module that checks whether a particular command is ava
 
 If you want to use this from Makefile.PL or Build.PL, do not simply copy the module into your distribution as this may cause problems when PAUSE and search.cpan.org index the distro. Instead, use the 'configure\_requires'.
 
-
-
 # LICENSE
 
 Copyright (C) tokuhirom
